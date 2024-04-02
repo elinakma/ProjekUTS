@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pendaftaran</title>
+    <link rel="stylesheet" href="/css/style.daftar.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <div class="logo">
+            <img src="gambar/icon.png" alt="Logo" />
+          </div>
+          <div class="navbar">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="profile.html">Profile</a></li>
+              <li><a href="hobi.html">Hobby</a></li>
+              <li><a href="tentangsaya.html">About</a></li>
+              <li><a href="jadwalkuliah.html">Jadwal Kuliah</a></li>
+              <li>
+                <a
+                  href="#"
+                  style="
+                    border: 8px solid white;
+                    background-color: white;
+                    color: black;
+                    border-radius: 20px;
+                  "
+                  >Register</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="welcome">
+      <h1>-- Formulir Pendaftaran --</h1>
+      <form action="#" method="get">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required />
+
+        <label for="kelas">Kelas:</label>
+        <input type="text" id="kelas" name="kelas" required />
+
+        <label for="nim">NIM:</label>
+        <input type="text" id="nim" name="nim" required />
+
+        <label for="alamat">Alamat:</label>
+        <input type="text" id="alamat" name="alamat" required />
+
+        <label for="prodi">Program Studi:</label>
+        <select id="prodi" name="prodi" required>
+          <option value="" disabled selected>Pilih Program Studi</option>
+          <option value="Komputerisasi Akuntansi">
+            Komputerisasi Akuntansi
+          </option>
+          <option value="Administrasi Bisnis">Administrasi Bisnis</option>
+          <option value="Teknik Komputer Kontrol">
+            Teknik Komputer Kontrol
+          </option>
+          <option value="Teknik Listrik">Teknik Listrik</option>
+          <option value="Mesin Otomotif">Mesin Otomotif</option>
+          <option value="Perkeretaapian">Perkeretaapian</option>
+          <option value="Teknologi Informasi">Teknologi Informasi</option>
+          <option value="Akuntansi">Akuntansi</option>
+        </select>
+
+        <input type="submit" value="Submit"/>
+      </form>
+    </div>
+
+    <footer>
+      <br />
+    </footer>
+  </body>
+</html>

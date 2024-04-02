@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+    background-image: url(/gambar/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    justify-content: center;
+    background-attachment: fixed;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-right: 80px;
+    padding-left: 20px;
+    font-size: 20px;
+  }
+
+  .logo img {
+    height: 50px;
+    width: auto;
+  }
+
+  .navbar ul {
+    animation: transitionNav 2s;
+    list-style: none;
+    padding: 0;
+  }
+
+  @keyframes transitionNav {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .navbar ul li {
+    display: inline;
+    margin-left: 40px;
+  }
+
+  .navbar ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .navbar ul li a:hover {
+    border-bottom: 2px solid white;
+  }
+
+  .welcome {
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    animation: transitionWel 2s;
+  }
+
+  @keyframes transitionWel {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .welcome p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  .welcome button {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 230px;
+    height: 50px;
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .welcome button a {
+    color: black;
+    text-decoration: none;
+  }
+
+  footer {
+    animation: transitionFoo 2s;
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  @keyframes transitionFoo {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .footer-icons {
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: 110px auto;
+  }
+
+  .footer-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+  }
